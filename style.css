@@ -118,20 +118,20 @@
     border: 1px solid #ffffff;
 }
 
-.home .menu {
+.head .menu {
     width: 511px;
     padding-top: 32px;
     margin: 0 auto;
 }
 
-.home .menu ul {
+.head .menu ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.home .menu-link {
+.head .menu-link {
     list-style-type: none;
     display: inline;
     font-family: "Roboto Condensed", sans-serif;
@@ -143,13 +143,13 @@
     text-decoration: none;
 }
 
-.home .menu-link:hover {
+.head .menu-link:hover {
     color: #ffffff;
     padding-bottom: 29px;
     border-bottom: 3px solid #ffffff;
 }
 
-.home hr {
+.head hr {
     margin-top: 30px;
     border-bottom-color: #ffffff;
     border-top: none;
