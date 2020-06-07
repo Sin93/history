@@ -622,12 +622,12 @@
     padding-top: 24px;
 }
 
-.featured_events .news_header {
+.events .news_header {
     padding-top: 8px;
     display: inline-block;
 }
 
-.featured_events button {
+.events button {
     width: 16px;
     height: 20px;
     color: #000000;
@@ -639,16 +639,16 @@
     background-color: transparent;
 }
 
-.featured_events button:hover {
+.events button:hover {
     background-color: #000000;
     color: #ffffff;
 }
 
-.featured_events button:active, button:focus {
+.events button:active, button:focus {
   outline: none !important;
 }
 
-.featured_events button::-moz-focus-inner {
+.events button::-moz-focus-inner {
   border: 0 !important;
 }
 
@@ -662,14 +662,14 @@
     display: inline-block;
 }
 
-.featured_events hr {
+.events hr {
     clear: both;
     background-color: #c5c5c5;
     margin-top: 15px;
     margin-bottom: 32px
 }
 
-.featured_events .game-arts {
+.events .game-arts {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -677,7 +677,7 @@
     margin-bottom: 42px;
 }
 
-.featured_events .accordion + label {
+.events .accordion + label {
     padding-left: 13px;
     padding-top: 11px;
     margin-top: 3px;
@@ -695,18 +695,18 @@
     display: inline-block;
 }
 
-.featured_events .accordion:checked + label {
+.events .accordion:checked + label {
     box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.2);
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
 }
 
-.featured_events .accordion,
+.events .accordion,
 .accordion + label ~ .accordion-text {
     display: none;
 }
 
-.featured_events .accordion:checked + label + .accordion-text {
+.events .accordion:checked + label + .accordion-text {
     width: 532px;
     height: 104px;
     display: block;
@@ -727,13 +727,13 @@
     box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
 }
 
-.featured_events .accordion + label:before {
+.events .accordion + label:before {
     content: "\002B";
     margin: 0px 17px 0px 0px;
     font-size: 18px;
 }
 
-.featured_events .accordion:checked + label:before {
+.events .accordion:checked + label:before {
     content: "\2212";
 }
 
