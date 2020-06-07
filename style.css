@@ -213,11 +213,11 @@
     background-color: #000000;
 }
 
-.facebook {
+.fb {
     background: url(img/facebook-logo.png) no-repeat center;
 }
 
-.twitter {
+.twr {
     background: url(img/twitter-logo.png) no-repeat center;
 }
 
@@ -225,7 +225,7 @@
     background: url(img/rss-logo.png) no-repeat center;
 }
 
-.vkontakte {
+.vk {
     background: url(img/vkontakte-logo.png) no-repeat center;
 }
 
